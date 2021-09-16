@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Caveat&family=Montserrat&display=swap');
+body {
+    color: #E4DDE4;
+}
+
+ul, p {
+    color: #100F1A;
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    color: #5F3052;
+    font-family: Caveat, cursive;
+}
+
