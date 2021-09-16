@@ -1,2 +1,2 @@
-const lastmodified = document.LastModified;
+const lastmodified = new Date(document.LastModified);
 
