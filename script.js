@@ -1,0 +1,1 @@
+const lastmodified = document.LastModified;
