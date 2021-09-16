@@ -1,2 +1,2 @@
-const lastmodified = new Date(document.LastModified);
+document.getElementById("lastmodified").textContent = new Date(document.LastModified);
 
