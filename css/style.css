@@ -53,16 +53,17 @@ a:hover {
 }
 
 footer {
-  font-family: Montseratt, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.8em;
   color: #F6F4F6;
   background-color: #5F3052;
   padding: 15px; 
   border-radius: 0px 0px 15px 15px;
+  text-align: center;
 }
 
 .connorandemma {
-  width: 300px;
+  width: 270px;
   float: right;
   margin: 15px;
   margin-right: 40px;
@@ -71,4 +72,7 @@ footer {
 
 hr {
   margin-top: -10px;
+}
+.modified {
+  color: #FF7075
 }
