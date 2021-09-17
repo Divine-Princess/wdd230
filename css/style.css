@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Caveat&family=Montserrat&display=swap');
 header {
     background-color: #5F3052;
-    margin: -10px;
-    height: 70px;
+    padding: 1em;
 }
 body {
-    background-color: #F6F4F6;
-    color:#5F3052;
-    max-width: 1000px;
+    background-color: #06AFB2;
+    color: #5F3052;
+    max-width: 950px;
     margin: auto;
 }
 
 main {
-    padding: 26px;
+    
+    background-color: #F6F4F6;
+    padding: 1em;
+    margin-top: -10px;
+    padding: 10px; 
+    height: 270px;
   
 }
 
 ul, p {
     color: #100F1A;
     font-family: Montserrat, sans-serif;
+    list-style-type: circle;
+    margin: 10px;
+    margin-top: 30px;
 }
 
 h1 {
@@ -27,18 +34,41 @@ h1 {
     margin: 10px;
     padding: 15px;
     text-shadow: 1px 1px 1px #06AFB2;
+    font-size: 3.2em;
 }
 
 h2 {
-    color: #5F3052;
+    color: #FF7075;
     font-family: Arapey, serif;
+    margin-left: 30px;
+    font-size: 1.8em;
 }
 
 a {
   color: #06AFB2;
 }
 
+a:hover {
+  color: #FF7075;
+}
+
 footer {
   font-family: Montseratt, sans-serif;
   font-size: 0.8em;
+  color: #F6F4F6;
+  background-color: #5F3052;
+  padding: 15px; 
+  border-radius: 0px 0px 15px 15px;
+}
+
+.connorandemma {
+  width: 300px;
+  float: right;
+  margin: 15px;
+  margin-right: 40px;
+  box-shadow: 5px 5px 0px rgba(16, 15, 26, 0.4);
+}
+
+hr {
+  margin-top: -10px;
 }
