@@ -1,0 +1,25 @@
+@media only screen and (min-width:  32.5em) {
+
+    h1 {
+        font-size: 3.2rem;
+        text-align: left;
+    }
+    
+    h2 {
+        font-size: 2.0rem;
+    }
+    
+    ul, p {
+        font-size: 1rem;
+    }
+
+    footer {
+        border-radius: 0px 0px 15px 15px;
+      }
+      .connorandemma {
+        float: right;
+        margin: 15px;
+        margin-right: 40px;
+        box-shadow: 5px 5px 0px rgba(16, 15, 26, 0.4);
+      }
+}
