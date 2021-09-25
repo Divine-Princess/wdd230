@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1028px) {
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   #squishmallows {
+    grid-column: span 1;
+}
+
+#squishmallowimage {
+    width: 97%;
+}
+
+footer {
+    grid-column: span 3;
+} 
+}

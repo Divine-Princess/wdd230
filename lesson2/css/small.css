@@ -1,0 +1,128 @@
+header {
+    background-color: #5F3052;
+    padding: 1em;
+}
+body {
+    background-color: #06AFB2;
+    color: #5F3052;
+    max-width: 950px;
+    margin: auto;
+}
+
+main {
+    background-color: #F6F4F6;
+    padding: 1em;
+    margin-top: -10px;
+    padding: 10px; 
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+ul, p, a {
+    color: #100F1A;
+    font-family: Montserrat, sans-serif;
+    list-style-type: circle;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+h1 {
+    color: #F6F4F6;
+    font-family: Caveat, cursive;
+    margin: 10px;
+    padding: 15px;
+    text-shadow: 1px 1px 1px #06AFB2;
+    font-size: 2.6rem;
+    text-align: center;
+
+}
+
+h2 {
+    color: #F62559;
+    font-family: Arapey, serif;
+    margin-left: 30px;
+    font-size: 1.4rem;
+}
+
+header h2 {
+    color: #FBA7BC;
+    font-family: Caveat, cursive;
+    margin-top: -15px;
+    margin-left: 0px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    color: #EBE6EB;
+    font-family: Arapey, serif;
+    font-size: 1.4rem;
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #5F3052;
+    margin: -16px;
+    border-radius: 14px 14px 0px 0px;
+    text-shadow: 1px 1px 1px #06AFB2;
+}
+
+a {
+  color: #5F3052;
+}
+
+a:hover {
+  color: #06AFB2;
+}
+
+.websites {
+    background-color: #EBE6EB;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.site {
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+#squishmallows h3 {
+    font-size: 1.3rem;
+
+}
+
+footer {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.8em;
+  color: #F6F4F6;
+  background-color: #5F3052;
+  padding: 15px; 
+  text-align: center;
+  margin: -10px;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+  margin: 0px;
+  font-size: 1em;
+}
+
+
+.connorandemma {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  width: 270px;
+  box-shadow: 5px 5px 0px rgba(16, 15, 26, 0.4);
+}
+
+hr {
+  margin-top: -10px;
+}
+.modified {
+  color: #FBA7BC
+}
