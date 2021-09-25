@@ -79,14 +79,16 @@ a:hover {
     padding: 15px;
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 2px 2px rgba(16, 15, 26, 0.4);
 }
-
 .site {
     margin-top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 97%;
+    box-shadow: 2px 2px 3px rgba(47, 45, 68, 0.5);
+
 }
 
 #squishmallows h3 {
@@ -101,7 +103,6 @@ footer {
   background-color: #5F3052;
   padding: 15px; 
   text-align: center;
- 
   margin-top: -10px;
 }
 
