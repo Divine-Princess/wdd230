@@ -3,10 +3,10 @@
         width: 30%;
     }
 
-    figure {
+    div {
         display: flex;
     }
-    figure img {
+    div img {
         flex: 1 1 100%;
         width: 100px;
     }

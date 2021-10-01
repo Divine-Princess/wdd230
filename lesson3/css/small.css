@@ -116,21 +116,21 @@ footer a {
     margin-top: 10px;
 }
 
-figure img {
+div img {
     width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
 }
-figcaption {
+#imagedescription {
     text-align: center;
     font-family: "Lato";
     color: gray;
     font-size: .8rem;
 }
 
-figcaption a {
+#imagedescription a {
     color: #7B0828;
     font-size: .8rem;
 }
@@ -155,4 +155,9 @@ figcaption a {
     font-size: 1.3rem;
     display: inline;
     color: #011627;
+}
+
+.active {
+    background-color: #7B0828;
+    color:#7AB9CD;
 }
