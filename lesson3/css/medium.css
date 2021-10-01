@@ -1,0 +1,23 @@
+@media only screen and (min-width:  32.5em) {
+    .weathericon {
+        width: 30%;
+    }
+
+    figure {
+        display: flex;
+    }
+    figure img {
+        flex: 1 1 100%;
+        width: 100px;
+    }
+
+    nav ul {
+        display: flex; 
+    }
+
+    nav ul li { 
+        flex: 1 1 100%; 
+    } 
+
+   
+}
