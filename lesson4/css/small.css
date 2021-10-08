@@ -1,0 +1,165 @@
+body {
+    background-color: #7AB9CD;
+}
+
+main {
+    max-width: 70rem;
+    background-color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2, h3, h4 {
+    font-family: "Slabo 27px", serif;
+    color: #7B0828;
+    font-size: 2.3rem;
+    padding-left: 20px;
+}
+
+.slogan {
+    font-family: "Lato", sans-serif;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: -15px;
+    color: #011627;
+    padding-left: 15px;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+p {
+    font-family: "Lato", sans-serif;
+    color: #011627;
+    padding-left: 7px;
+}
+
+main ul li, main ol li {
+    font-family: "Lato";
+    color: #011627;
+    padding-left: 7px;
+    padding: 5px;
+}
+
+header {
+    background-color: #7AB9CD;
+
+}
+
+.miniheader {
+    background-color: #388659;
+    padding: 15px;
+    padding-left: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: "Oleo Script", cursive;
+    color: #011627;
+    text-shadow: 1px 1px 1px #F5F5F5;
+}
+
+button {
+    background-color: #011627;
+    color: #F5F5F5;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0.80rem;
+    text-align: left;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #7B0828;
+    
+}
+
+
+nav {
+    background-color: #011627;
+    color: #F5F5F5;
+    font-family: "Lato", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav ul li a{
+	display: block;
+	text-align: center;
+	padding: 0.80rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+    color:#F5F5F5;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+	background-color: #7B0828;
+}
+
+nav ul li a:visited {
+    color: #F5F5F5;
+}
+nav ul.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.active {
+    background-color: #7B0828;
+}
+
+section {
+    padding: 30px;
+    background-color: #7AB9CD;
+    margin: 20px;
+}
+
+
+footer {
+    background-color: #7B0828;
+    color: #F5F5F5;
+    text-align: center;
+    margin: auto;
+    font-family: "Lato";
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color:#F5F5F5
+}
+
+#weathericonexample {
+    width: 300px;
+}
+
+.weathericon {
+    width: 50%;
+    margin: -10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.centeredh2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
