@@ -9,6 +9,7 @@ main {
     padding-bottom: 20px;
 }
 
+
 h2, h3, h4 {
     font-family: "Slabo 27px", serif;
     color: #7B0828;
@@ -113,6 +114,28 @@ nav ul.hide {
     display: none;
 }
 
+
+div#message {
+    background-color:#7B0828;
+}
+
+div#message h2 {
+    color:#F5F5F5;
+    margin: auto;
+    padding: 30px;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -126,29 +149,43 @@ nav ul.hide {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    border: 1px solid blue;
 }
 
-.heroplaceholder {
-    margin: 10px auto;
-    background-color: #7AB9CD;
-    width: 90%;
-    height: 300px;
+.heroimage {
+    width: 100%;
 }
 
 .weathersummary {
-    position: absolute;
-    top: 25px;
-    left: 50px;
-    background: #F5F5F5;
-    padding: 1rem;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    background: rgba(250,250,250,0.8);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding: 15px;
+    margin: 10px;
 }
 
-.notready{
-    padding: 30px;
-    background-color: #7AB9CD;
-    margin: 20px;
+.weathersummary h3 {
+    padding-left: 5px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.fivedayforecast {
+    display: none;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+}
+
+.article img {
+    width: 100%;
+}
+
+.contactusmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    
 }
 
 
