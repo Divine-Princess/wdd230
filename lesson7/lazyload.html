@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="css/lazystyle.css">
+    
+</head>
+<body>
+    <main>
+        <h1>Progressive Loading (Images)</h1>
+        <picture>   
+            <img src="images/placeholder.jpg" data-src="images/blossom.jpg" alt="Blossom">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.jpg"  data-src="images/cesmith.jpg" alt="C+E Smith">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.jpg"  data-src="images/hk.jpg" alt="Hollow Knight">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/marine.jpg" alt="Marine">
+        </picture>
+
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/umi.jpg" alt="Umi">
+        </picture>
+    </main>
+    <script src="js/lazyscript.js"></script>
+</body>
+
+</html>
