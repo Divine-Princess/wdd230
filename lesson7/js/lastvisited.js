@@ -5,7 +5,9 @@ let lastVisit = localStorage.getItem("lastvisit");
 
 console.log(lastVisit);
 
-let todaysVisit = Math.round(Date.now() / millisecondsToDays);
+console.log(Date.now())
+
+let todaysVisit = Math.floor(Date.now() / millisecondsToDays);
 
 let daysFromVisit = todaysVisit - lastVisit;
 
