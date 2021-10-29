@@ -1,0 +1,117 @@
+@media only screen and (min-width:  32.5em) {
+    .weathericon {
+        width: 30%;
+    }
+
+    .slogan {
+        margin-top: -15px;
+        font-size: 0.9rem;
+    }
+
+    div {
+        display: flex;
+    }
+    div img {
+        flex: 1 1 100%;
+        width: 100px;
+    }
+
+    nav ul {
+        display: flex; 
+    }
+
+    nav ul.hide {
+        display: flex; 
+    }
+
+    .weathersummary {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        padding: 1rem;
+        
+    }
+
+    section.fivedayforecast {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 20px;
+    }
+
+   section.fivedayforecast div {
+       text-align: center;
+       background-color: rgba(122,185,205,0.1);
+       display: block;
+       margin: 2px;
+   }
+
+   section.fivedayforecast h4 {
+       background-color: rgba(122,185,205,0.4);
+       margin: 0;
+       padding: 1rem 0;
+       color: #011627;
+   }
+
+    .largescreen {
+        display: inline;
+        width: 300px;
+        float: right;
+        padding: 20px;
+        position: static;
+        margin-top: 20px;
+       
+    }
+
+    .smallscreen {
+        display: none;
+    }
+
+
+    .contactus div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .map {
+        grid-column: 3/5;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .contactus div div {
+        grid-gap: 10px;
+        margin-left: 10px;
+    }
+
+    nav ul li { 
+        flex: 1 1 100%; 
+    } 
+
+    nav button {
+        display: none;
+    }   
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0px;
+    }
+
+    .gallery figure {
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+
+    .gallery figure img {
+        box-shadow: 4px 4px rgba(0,0,0,0.3);
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .gallery :nth-child(9) {
+        grid-column: 1/3;
+        width: 45%;
+    }
+}
