@@ -1,5 +1,5 @@
 
-const millisecondsToDays = 8640000;
+const millisecondsToDays = 86400000;
 
 let lastVisit = localStorage.getItem("lastvisit");
 
