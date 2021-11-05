@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1028px) {
+    /* Header, Main, Footer */
+    .weathericon {
+        width: 25%;
+    }
+
+    .slogan {
+        margin-top: -15px;
+        font-size: 1.1rem;
+    }
+
+    header, nav, footer {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    main {
+        border-radius: 20px 20px 0px 0px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    header, footer {
+        max-width: 70rem;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    /* Gallery */
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery figure {
+        box-shadow: 1px 1px rgba(0,0,0,0.3);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .gallery figure:hover {
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        transition: 0.2s;
+    }
+
+    .gallery figure img {
+        box-shadow: none;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .gallery figure figcaption {
+        display: inline-block;
+        padding: 20px;
+        color: rgb(77, 77, 77);
+    }
+
+    .gallery :nth-child(9) {
+        grid-column: 3/4;
+        width: 90%;
+    }
+
+    /* Form */
+    fieldset {
+        box-shadow: 3px 3px rgba(0,0,0,0.7);
+    }
+
+    label.danger input {
+        width: 7%;
+    }
+
+}
