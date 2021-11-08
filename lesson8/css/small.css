@@ -200,6 +200,19 @@ label input {
 
 input[type="range"] {
     box-shadow: none;
+    margin: 0;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+	align-items: center;
+}
+
+#severityvalue {
+    color: #7B0828;
+    padding: 15px;
+
 }
 
 label select {
