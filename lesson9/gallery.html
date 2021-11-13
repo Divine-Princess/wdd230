@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page for the gallery, for seidahoweather.com belonging to Emma Toronto Smith.">
+    <title>Gallery</title>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oleo+Script&family=Slabo+27px&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="message"><h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2></div>
+    <header>
+            <img src="images/weathericon.png" alt="Weather of Southeast Idaho Logo" class="weathericon">
+            <h2 class="slogan">Your best source for weather and news in Idaho</h2>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="#" class="active">Gallery</a></li>
+        </ul> 
+        <h1 class="miniheader">Gallery</h1>
+    </nav>
+    <main class="gallery">
+        <figure>
+            <picture>
+                <img src="images/placeholderA.jpg" data-src="images/cloudyfield.jpg" alt="Cloudy Field">
+            </picture>
+            <figcaption>Clouds over field in Preston</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/cloudymountain.jpg" alt="Cloudy mountain">
+            <figcaption>Clouds over mountains near Soda Springs</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/idahorainbow.jpg" alt="Rainbow over farm">
+            <figcaption>Rainbow over farm in Preston</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/lightning.jpg" alt="Lightning">
+            <figcaption>Impressive lighting over Fish Haven</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/lightninggrass.jpg" alt="Lighting over grassy field">
+            <figcaption>Lightning storm near Soda Springs</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/snowymountain.jpg" alt="Snowy mountain">
+            <figcaption>Snowy mountains as seen from Fish Haven</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/sunbeamfield.jpg" alt="Sunbeams over field">
+            <figcaption>Sunbeams over field in Preston</figcaption>
+        </figure>
+        <figure>
+            <img src="images/placeholderA.jpg" data-src="images/sunnymount.jpg" alt="Sunny day over mountain">
+            <figcaption>View of sunny mountain day near Fish Haven</figcaption>
+        </figure>
+        <figure class="bottomimage">
+            <img src="images/placeholderA.jpg" data-src="images/tornado.jpg" alt="Tornado">
+            <figcaption>Surprise tornado near Franklin County</figcaption>
+        </figure>
+       
+        
+    </main>
+    <footer class="galleryfooter">&copy; 2021 | Emma Smith | Washington | <a href="https://www.byui.edu/online">BYU Idaho</a><br>
+        <span id="copyrightyear"></span><br>
+        Last visited: <span id="visited"></span> days ago
+
+    </footer>
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontloader.js"></script>
+<script src="js/lazyscript.js"></script>
+<script src="js/lastvisited.js"></script>
+</body>
+</html>
