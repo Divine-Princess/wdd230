@@ -1,0 +1,493 @@
+/* Header */
+header {
+    background-color: #7AB9CD;
+
+}
+
+.miniheader {
+    background-color: #388659;
+    padding: 15px;
+    padding-left: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: "Oleo Script", cursive;
+    color: #011627;
+    text-shadow: 1px 1px 1px #F5F5F5;
+}
+.slogan {
+    font-family: "Lato", sans-serif;
+    font-size: .8rem;
+    font-style: italic;
+    margin-top: -15px;
+    color: #011627;
+    padding-left: 15px;
+}
+
+.weathericon {
+    width: 50%;
+    margin: -10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/* Body + Main */
+body {
+    background-color: #7AB9CD;
+}
+
+main {
+    max-width: 70rem;
+    background-color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Message */
+div#message {
+    background-color:#7B0828;
+}
+
+div#message h2 {
+    color:#F5F5F5;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+/* Main Fonts/Text */
+h2, h3, h4 {
+    font-family: "Slabo 27px", serif;
+    color: #7B0828;
+    font-size: 2.3rem;
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+p {
+    font-family: "Lato", sans-serif;
+    color: #011627;
+    padding-left: 7px;
+}
+
+main ul li, main ol li {
+    font-family: "Lato";
+    color: #011627;
+    padding-left: 7px;
+    padding: 5px;
+}
+
+.stormcenter h2 {
+    font-size: 2.0rem;
+    padding: 30px;
+}
+
+.centeredh2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #011627;
+    color: #F5F5F5;
+    font-family: "Lato", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a{
+	display: block;
+	text-align: center;
+	padding: 0.80rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+    color:#F5F5F5;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+	background-color: #7B0828;
+}
+
+nav ul li a:visited {
+    color: #F5F5F5;
+}
+nav ul.hide {
+    display: none;
+}
+
+.active {
+    background-color: #7B0828;
+}
+
+/* Toggle Menu Button */
+button {
+    background-color: #011627;
+    color: #F5F5F5;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0.80rem;
+    text-align: left;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #7B0828;
+    
+}
+
+/* Home Page / Town Info */
+
+.index {
+    text-align: center;
+}
+
+
+.index h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+div.towns {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.towns div {
+    background-color:#388659;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+div.towns img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+div.towns p {
+    color: black; 
+}
+
+div.towns h2 {
+    font-family: "Oleo Script", serif;
+    color: #011627;
+    margin: 20px;
+    text-shadow: 1px 1px 1px #F5F5F5;
+    padding: 30px;
+    font-size: 2rem;
+}
+
+div.towns h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 0 20px 20px;
+}
+
+/* Children event */
+
+div.childrenevent {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #7AB9CD;
+    margin-top: 10px;
+}
+
+.childrenevent img {
+    height: 300px;
+    width: 90%;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.childrenoverlay {
+    padding: 10px;
+}
+
+
+/* Form */
+form {
+    margin: 0 auto;
+    color: #011627;
+}
+
+fieldset {
+    border: none;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    background-color: #7AB9CD;
+    margin: 20px 0px;   
+}
+
+label {
+    display: block;
+    padding: 5px 20px 20px 5px;
+}
+
+legend {
+    font-family: "Slabo 27px", serif;
+    font-size: 1.2rem;
+    color: #F5F5F5;
+    text-align: center;
+    background-color: #666;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(0,0,0,0.7);
+}
+
+label input {
+    border: none;
+    height: 44px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(0,0,0,0.4);
+}
+
+input[type="range"] {
+    box-shadow: none;
+    margin: 0;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+	align-items: center;
+}
+
+#severityvalue {
+    color: #7B0828;
+    padding: 15px;
+
+}
+
+label select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(0,0,0,0.4);
+}
+
+label.danger{
+    padding: 3px;
+    
+}
+label.danger input {
+    margin-top: 20px;
+    margin-left: -20px;
+    height: 15px;
+    width: 20%;
+    box-shadow: none;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border-radius: 15px;
+}
+
+label input:required {
+    box-shadow: 4px 4px #7B0828;
+}
+
+label input:required:valid {
+    box-shadow: 4px 4px #388659;
+}
+
+/* Submit Button */
+div.button {
+    width: 70%;
+    margin: 20px auto;
+}
+
+div.button input {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Slabo 27px", serif;
+    font-size: 1.2rem;
+    color: #F5F5F5;
+    background-color: #666;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Hero */
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.heroimage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Weather Summary */
+.weathersummary {
+    background: rgba(250,250,250,0.8);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding: 15px;
+    margin: 15px;
+}
+
+.weathersummary p {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.weathersummary h3 {
+    padding-left: 5px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+/* Five Day Forecast */
+#fivedayforecast {
+    display: none;
+}
+
+/* Article */
+.article {
+    padding: 20px;
+}
+
+.smallscreen {
+    width: 100%;
+}
+
+.largescreen {
+    display: none;
+}
+
+/* Contact us + map */
+.contactus div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contactus div div {
+    display: block;
+}
+
+.contactus div div p {
+    margin: 10px; 
+}
+
+.contactus h2 {
+    margin: 15px;
+}
+
+.contactus div div h3 {
+    margin: 10px;
+}
+
+.map {
+    padding: 60px;
+    margin: 10px;
+    background-color: lightblue;
+    grid-column: 1/3;
+}
+
+/* Footer */
+footer {
+    background-color: #7B0828;
+    color: #F5F5F5;
+    text-align: center;
+    margin: auto;
+    font-family: "Lato";
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color:#F5F5F5
+}
+
+/* Gallery */
+.gallery {
+    max-width: 80rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.gallery figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallery figure img {
+    width: 100%;
+    box-shadow: 0px 2px rgba(0,0,0,0.3);
+}
+
+
+.gallery figure figcaption {
+    display: none;
+    font-family: "Lato", sans-serif;
+}
+
+.galleryfooter {
+    max-width: 80rem;
+}
+
+/* Thanks */
+main.thanks p {
+    text-align: center;
+    padding: 20px;
+}
+
+main.thanks p a {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+/* Img Blur */
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  
+}
+
+/* ClearFix */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

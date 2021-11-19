@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page for Preston, Idaho, for seidahoweather.com belonging to Emma Toronto Smith.">
+    <title>Preston, Idaho</title>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oleo+Script&family=Slabo+27px&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="message"><h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2></div>
+    <header>
+            <img src="images/weathericon.png" alt="Weather of Southeast Idaho Logo" class="weathericon">
+            <h2 class="slogan">Your best source for weather and news in Idaho</h2>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul> 
+        <h1 class="miniheader">Preston, Idaho</h1>
+    </nav>
+    <main>
+        
+        <div class="herodiv">
+            <img src="images/heroimage.jpg" alt="hero image" sizes="100vw" srcset="images/heroimage500.jpg 500w, images/heroimage800.jpg 800w, images/heroimage1100.jpg 1100w">
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current"></span></p>
+                <p>Current Temperature: <span id="temp"></span> &deg;F</p>
+                <p>Wind Chill: <span id="chill"></span></p>
+                <p>Humidity: <span id="humidity"></span> </p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+            </section>
+        </div>
+        <section id="fivedayforecast">
+           
+
+        </section>
+        <section class="article">
+            <img class="largescreen" src="images/plane.jpg" alt="image of an airplane">
+            <h2>Article Title</h2>
+            <p>On this day in history Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Lacus luctus accumsan tortor posuere ac ut consequat. Est sit amet facilisis magna etiam tempor. Ac tortor vitae purus faucibus ornare suspendisse. Blandit cursus risus at ultrices mi tempus. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Eget nulla facilisi etiam dignissim diam quis. Elementum facilisis leo vel fringilla est ullamcorper. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Facilisi cras fermentum odio eu feugiat pretium nibh. Metus vulputate eu scelerisque felis imperdiet. Quis enim lobortis scelerisque fermentum. Amet porttitor eget dolor morbi non arcu risus. Aliquet bibendum enim facilisis gravida neque convallis a cras semper.</p>
+            <img class="smallscreen" src="images/plane.jpg" alt="image of an airplane">
+           
+            
+        </section>
+        
+        <section class="contactus">
+            <h2>Contact Us</h2>
+            <div>
+                <div class="address">
+                    <h3>Address:</h3>
+                    <p>The Weather Center<br>123 Main Street.<br>Franklin, MI 87654</p>
+                </div>
+                <div class="phoneemail">
+                    <h3>Phone:</h3>
+                    <p>(801) 555-1234</p>
+                    <h3>Email:</h3>
+                    <p>contact@yoururl.com</p>
+                    </div>
+                    
+                <div class="map">
+                    <p>Map goes here</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>&copy; 2021 | Emma Smith | Washington | <a href="https://www.byui.edu/online">BYU Idaho</a><br>
+        <span id="copyrightyear"></span><br>
+        Weather Information Provided by <a href="https://openweathermap.org/">OpenWeatherMap.org</a>
+    </footer>
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontloader.js"></script>
+<script src="js/weather-api.js"></script>
+<script src="js/5dayforecast.js"></script>
+
+</body>
+</html>

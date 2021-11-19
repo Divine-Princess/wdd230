@@ -1,0 +1,1 @@
+WebFont.load({google: {families: ["Lato", "Oleo Script", "Slabo 27px" ]} });
