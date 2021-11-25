@@ -13,18 +13,21 @@ fetch(requestURL)
             let event2 = document.createElement('li');
             let event3 = document.createElement('li');
             let event4 = document.createElement('li');
-            let prestoneventsul = document.getElementById('prestonevents');
+            let fisheventsul = document.getElementById('fishhavenevents');
 
             event1.textContent = towns[i].events[0];
             event2.textContent = towns[i].events[1];
             event3.textContent = towns[i].events[2];
             event4.textContent = towns[i].events[3];
             
-    
-             if (i = 6) {
-                prestoneventsul.appendChild(event1);
-                prestoneventsul.appendChild(event2);
-                prestoneventsul.appendChild(event3);
+            if (i = 2) {
+
+                fisheventsul.appendChild(event1);
+                fisheventsul.appendChild(event2);
+                fisheventsul.appendChild(event3);
+                fisheventsul.appendChild(event4);
+                
         }
+    
     }
     });
