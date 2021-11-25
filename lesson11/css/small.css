@@ -232,6 +232,14 @@ div.childrenevent {
     padding: 10px;
 }
 
+/* City Events */
+
+section.events {
+    background-color: #7AB9CD;
+    padding: 15px;
+    margin: 20px;
+}
+
 
 /* Form */
 form {

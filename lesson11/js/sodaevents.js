@@ -20,13 +20,11 @@ fetch(requestURL)
             event3.textContent = towns[i].events[2];
             event4.textContent = towns[i].events[3];
             
-            if (i = 0) {
-                
+    
+             if (towns[i].name == "Soda Springs") {
                 sodaeventsul.appendChild(event1);
                 sodaeventsul.appendChild(event2);
                 sodaeventsul.appendChild(event3);
-                
         }
-    
     }
     });

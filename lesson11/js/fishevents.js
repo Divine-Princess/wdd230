@@ -20,7 +20,7 @@ fetch(requestURL)
             event3.textContent = towns[i].events[2];
             event4.textContent = towns[i].events[3];
             
-            if (i = 2) {
+            if (towns[i].name == "Fish Haven") {
 
                 fisheventsul.appendChild(event1);
                 fisheventsul.appendChild(event2);

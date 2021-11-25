@@ -21,7 +21,7 @@ fetch(requestURL)
             event4.textContent = towns[i].events[3];
             
     
-             if (i = 6) {
+             if (towns[i].name == "Preston") {
                 prestoneventsul.appendChild(event1);
                 prestoneventsul.appendChild(event2);
                 prestoneventsul.appendChild(event3);
