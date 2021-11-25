@@ -80,13 +80,13 @@
 
 
     /* Preston Home */
-    div {
+   /* .preston div {
         display: flex;
     }
-    div img {
+    .preston div img {
         flex: 1 1 100%;
         width: 100px;
-    }
+    }*/
 
     .weathersummary {
         position: absolute;

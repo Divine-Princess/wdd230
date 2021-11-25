@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page for Preston, Idaho, for seidahoweather.com belonging to Emma Toronto Smith.">
+    <title>Preston, Idaho</title>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oleo+Script&family=Slabo+27px&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="message"><h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2></div>
+    <header>
+            <img src="images/weathericon.png" alt="Weather of Southeast Idaho Logo" class="weathericon">
+            <h2 class="slogan">Your best source for weather and news in Idaho</h2>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul> 
+        <h1 class="miniheader">Preston, Idaho</h1>
+    </nav>
+    <main class="preston">
+        
+        <div class="herodiv">
+            <img src="images/heroimage.jpg" alt="hero image" sizes="100vw" srcset="images/heroimage500.jpg 500w, images/heroimage800.jpg 800w, images/heroimage1100.jpg 1100w">
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="current"></span></p>
+                <p>Current Temperature: <span id="temp"></span> &deg;F</p>
+                <p>Wind Chill: <span id="chill"></span></p>
+                <p>Humidity: <span id="humidity"></span> </p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+            </section>
+        </div>
+        <section id="fivedayforecast">
+
+        </section>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul id="prestonevents"></ul>
+        </section>
+        <section class="article">
+            <img class="largescreen" src="images/prestonhighschool.jpg" alt="Preston Highschool">
+            <h2>Things to do in Preston</h2>
+            <p>Come and visit Preston High School. This high school was where the much of the filming of the popular cult classic <i>Napoleon Dynamite.</i></p>
+            <img class="smallscreen" src="images/prestonhighschool.jpg" alt="Preston Highschool">
+           
+            
+        </section>
+
+    </main>
+    <footer>
+        <div class="contactinfo">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:400px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:400px;}</style></div></div>
+            <p>Weather of Southeast Idaho<br><br>
+            Address:<br>
+                123 Main Street<br>
+                Preston, ID 87654<br><br>
+            Phone: (208) 555-1234<br><br>
+            Email: weather@seidahoweather.com</p>
+        </div>
+        Weather Information Provided by<br> <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br>
+        &copy; 2021 | Emma Smith | Washington | <a href="https://www.byui.edu/online">BYU Idaho</a><br>
+        <span id="copyrightyear"></span>
+    </footer>
+
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontloader.js"></script>
+<script src="js/weather-api.js"></script>
+<script src="js/5dayforecast.js"></script>
+<script src="js/events.js" defer></script>
+</body>
+</html>

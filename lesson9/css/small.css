@@ -434,6 +434,18 @@ footer a {
     color:#F5F5F5
 }
 
+.contactinfo {
+    background-color:#388659;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contactinfo img {
+    width: 200px;
+    display: none;
+}
+
 /* Gallery */
 .gallery {
     max-width: 80rem;
