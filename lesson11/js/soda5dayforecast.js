@@ -1,6 +1,5 @@
 const mydate = new Date();
 const todayDayNumber = mydate.getDay();
-console.log(todayDayNumber);
 
 const myweekday = new Array(7);
 
@@ -17,11 +16,8 @@ const apiForecastURL = "//api.openweathermap.org/data/2.5/forecast?id=5607916&un
 fetch(apiForecastURL)
   .then((response) => response.json())
   .then((forecastInfo) => {
-    console.log(forecastInfo);
 
         let forecastDayNumber = todayDayNumber;
-        console.log(forecastDayNumber);
-
         for (i = 0; i < forecastInfo.list.length; i++) {
             let time = forecastInfo.list[i].dt_txt;
             if (time.includes('18:00:00')) {
@@ -32,11 +28,9 @@ fetch(apiForecastURL)
 
                 let theDayName = document.createElement("h4");
                 theDayName.textContent = myweekday[forecastDayNumber];
-                console.log(">"+myweekday[forecastDayNumber]);
 
                 let theTemp = document.createElement("p");
                 theTemp.textContent = Math.round(forecastInfo.list[i].main.temp) + "\xB0";
-                console.log(theTemp);
 
                 let iconcode = forecastInfo.list[i].weather[0].icon;
                 let iconPath = "//openweathermap.org/img/wn/" + iconcode + "@2x.png";

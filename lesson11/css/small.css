@@ -40,6 +40,7 @@ main {
     background-color: #F5F5F5;
     padding-top: 20px;
     padding-bottom: 60px;
+    line-height: 1.8rem;
 }
 
 /* Message */
@@ -235,9 +236,19 @@ div.childrenevent {
 /* City Events */
 
 section.events {
-    background-color: #7AB9CD;
+    border: solid 2px #7AB9CD;
+    border-radius: 15px;
     padding: 15px;
     margin: 20px;
+}
+
+section.events ul {
+    margin-left: -35px;
+}
+
+section.events ul li {
+    list-style-type: none;
+    
 }
 
 
@@ -386,6 +397,7 @@ div.button input {
 /* Article */
 .article {
     padding: 20px;
+    
 }
 
 .smallscreen {
@@ -454,8 +466,29 @@ footer a {
     margin-bottom: 15px;
 }
 
-.mapouter {
+div.mapouter {
     padding: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    text-align:right;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width: 400px;
+}
+
+div.gmap_canvas {
+    width: 100%;
+    text-align: center;
+}
+
+div.gmap_canvas iframe {
+    width: 280px;
+    border: none;
 }
 
 .contactinfo p {

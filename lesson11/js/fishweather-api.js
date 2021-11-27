@@ -2,7 +2,6 @@ const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5585000&units=imper
 fetch(apiURL)
   .then((response) => response.json())
   .then((weatherInfo) => {
-    console.log(weatherInfo);
 
     document.getElementById("temp").innerHTML = Math.round(weatherInfo.main.temp);
     document.getElementById("speed").innerHTML = Math.round(weatherInfo.wind.speed);

@@ -95,20 +95,20 @@
         padding: 1rem;
     }
 
-    section#fivedayforecast {
+    div#fivedayforecast {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         padding: 20px;
     }
 
-   section#fivedayforecast div {
+   div#fivedayforecast div {
        text-align: center;
        background-color: rgba(122,185,205,0.3);
        display: block;
        margin: 2px;
    }
 
-   section#fivedayforecast h4 {
+   div#fivedayforecast h4 {
        background-color: rgba(122,185,205,0.4);
        margin: 0;
        padding: 1rem 0;
@@ -187,12 +187,19 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         height: 230px;
+        width: 100%;
     }
 
-    .mapouter {
+    div.mapouter {
+        margin: 0;
         justify-self: right;
         padding: 20px;
-        border-radius: 25px;
+    }
+    div.gmap_canvas {
+        text-align: right;
+    }
+    div.gmap_canvas iframe {
+        width: 400px;
     }
 
     .contactinfo p {

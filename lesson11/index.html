@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the home page for seidahoweather.com belonging to Emma Toronto Smith.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the home page for seidahoweather.com belonging to Emma Toronto Smith."
+    />
     <title>Southeast Idaho Home</title>
-    <!--<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oleo+Script&family=Slabo+27px&display=swap" rel="stylesheet">-->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-</head>
-<body>
-    <div id="message"><h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2></div>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <div id="message">
+      <h2>
+        &#11089; Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at
+        the city park pavilion. &#11089;
+      </h2>
+    </div>
     <header>
-            <img src="images/weathericon.png" alt="Weather of Southeast Idaho Logo" class="weathericon">
-            <h2 class="slogan">Your best source for weather and news in Idaho</h2>
+      <img
+        src="images/weathericon.png"
+        alt="Weather of Southeast Idaho Logo"
+        class="weathericon"
+      />
+      <h2 class="slogan">Your best source for weather and news in Idaho</h2>
     </header>
     <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776; Menu</button>
-        <ul id="navigation" class="hide">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul> 
-        <h1 class="miniheader">Welcome to Southeast Idaho</h1>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navigation" class="hide">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      <h1 class="miniheader">Welcome to Southeast Idaho</h1>
     </nav>
     <main class="index">
-        <picture class="herodiv">
-            <img class="heroimage" src="images/indexhero.jpg" alt="Hero Image for Home Page">
-        </picture>
-        <p>Welcome to your center for weather and news in Southeast Idaho! Our site covers events in Preston, Soda Springs, Fish Haven, and surrounding areas.</p>
-        <h2>Have a look at the towns of the Southeast</h2>
-        <div class="towns">
+      <picture class="herodiv">
+        <img
+          class="heroimage"
+          src="images/indexhero.jpg"
+          alt="Hero Image for Home Page"
+        />
+      </picture>
+      <p>
+        Welcome to your center for weather and news in Southeast Idaho! Our site
+        covers events in Preston, Soda Springs, Fish Haven, and surrounding
+        areas.
+      </p>
+      <h2>Have a look at the towns of the Southeast</h2>
+      <div class="towns"></div>
 
+      <div class="childrenevent">
+        <div class="childrenoverlay">
+          <h2>Play Day in the Park</h2>
+          <p>
+            Join us for free food and games at our big play day in Preston for
+            ages 2-10!
+          </p>
+          <p>249 N State Street<br />Preston, Idaho 83263</p>
+          <p>August 12th from 12pm-3pm</p>
         </div>
-
-        <div class="childrenevent">
-            <div class="childrenoverlay">
-                <h2>Play Day in the Park</h2>
-                <p>Join us for free food and games at our big play day in Preston for ages 2-10!</p>
-                <p>249 N State Street<br>Preston, Idaho 83263</p>
-                <p>August 12th from 12pm-3pm</p>
-            </div>
-            <img src="images/childrenevent.jpg" alt="children's event">
-        </div>
-       
+        <img src="images/childrenevent.jpg" alt="children's event" />
+      </div>
     </main>
     <footer>
-        <div class="contactinfo">
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:400px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:400px;}</style></div></div>
-            <p>Weather of Southeast Idaho<br><br>
-            Address:<br>
-                123 Main Street<br>
-                Preston, ID 87654<br><br>
-            Phone: (208) 555-1234<br><br>
-            Email: weather@seidahoweather.com</p>
+      <div class="contactinfo">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            ></iframe
+            ><a href="https://putlocker-is.org"></a><br /><a
+              href="https://www.embedgooglemap.net"
+            ></a>
+          </div>
         </div>
-        Weather Information Provided by<br> <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br>
-        &copy; 2021 | Emma Smith | Washington | <a href="https://www.byui.edu/online">BYU Idaho</a><br>
-        <span id="copyrightyear"></span>
+        <p>
+          Weather of Southeast Idaho<br /><br />
+          Address:<br />
+          123 Main Street<br />
+          Preston, ID 87654<br /><br />
+          &#9743; (208) 555-1234<br /><br />
+          &#9993; weather@seidahoweather.com
+        </p>
+      </div>
+      Weather Information Provided by<br />
+      <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br />
+      &copy; 2021 | Emma Smith | Washington |
+      <a href="https://www.byui.edu/online">BYU Idaho</a><br />
+      <span id="copyrightyear"></span>
+      <br />Last visited: <span id="visited"></span> days ago
     </footer>
 
-<script src="js/script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="js/webfontloader.js"></script>
-<script src="js/towninfo.js"></script>
-
-</body>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontloader.js"></script>
+    <script src="js/towninfo.js"></script>
+    <script src="js/lastvisited.js"></script>
+  </body>
 </html>
