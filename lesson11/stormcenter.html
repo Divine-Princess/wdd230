@@ -1,181 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This is the page for the Storm Center, for seidahoweather.com belonging to Emma Toronto Smith."
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page for the Storm Center, for seidahoweather.com belonging to Emma Toronto Smith.">
     <title>Storm Center</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-  </head>
-  <body>
-    <div id="message">
-      <h2>
-        &#11089; Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at
-        the city park pavilion. &#11089;
-      </h2>
-    </div>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="message"><h2>&#11089; Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion. &#11089;</h2></div>
     <header>
-      <img
-        src="images/weathericon.png"
-        alt="Weather of Southeast Idaho Logo"
-        class="weathericon"
-      />
-      <h2 class="slogan">Your best source for weather and news in Idaho</h2>
+            <img src="images/weathericon.png" alt="Weather of Southeast Idaho Logo" class="weathericon">
+            <h2 class="slogan">Your best source for weather and news in Idaho</h2>
     </header>
     <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776; Menu</button>
-      <ul id="navigation" class="hide">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="preston.html">Preston</a></li>
-        <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>
-        <li><a href="#" class="active">Storm Center</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-      </ul>
-      <h1 class="miniheader">Storm Center</h1>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="#" class="active">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul> 
+        <h1 class="miniheader">Storm Center</h1>
     </nav>
     <main class="stormcenter">
-      <h2 class="centeredh2">Report Storms and Irregular Weather</h2>
-      <form method="get" action="thanks.html">
-        <fieldset>
-          <legend>Witness Information</legend>
-          <label
-            >Full Name*<br />
-            <input
-              type="text"
-              name="fullname"
-              required
-              pattern="[A-Za-z].{5,}"
-              title="More than 5 characters"
-          /></label>
-          <label
-            >Email<br />
-            <input type="email" name="email" placeholder="johndoe@abc123.com"
-          /></label>
-          <label
-            >Phone Number*<br />
-            <input type="tel" name="phone" placeholder="1235551234" required
-          /></label>
-          <label
-            >Zip Code*<br />
-            <input type="number" name="zipcode" required
-          /></label>
-        </fieldset>
+        <h2 class="centeredh2">Report Storms and Irregular Weather</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>
+                    Witness Information
+                </legend>
+                <label>Full Name*<br> 
+                    <input type="text" name="fullname" required pattern="[A-Za-z].{5,}" title="More than 5 characters"></label>
+                <label>Email<br> 
+                    <input type="email" name="email" placeholder="johndoe@abc123.com"></label>
+                <label>Phone Number*<br>
+                    <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label>Zip Code*<br> 
+                    <input type="number" name="zipcode" required></label>
+                </fieldset>
 
-        <fieldset>
-          <legend>Storm Information</legend>
-          <label
-            >Storm Date<br />
-            <input type="date" name="stormdate"
-          /></label>
-          <label
-            >Storm Type<br />
-            <input list="stormtypes" name="stormtype" id="stormtype" />
-            <datalist id="stormtypes">
-              <option value="Flash Flood">Flash Flood</option>
-              <option value="Hail">Hail</option>
-              <option value="Hurricane"></option>
-              <option value="Thunderstorm"></option>
-              <option value="Tornado"></option>
-            </datalist>
-          </label>
-          <p>Storm Severity</p>
-          <label class="flex">
-            <input
-              type="range"
-              id="severity"
-              value="5"
-              min="1"
-              max="10"
-              step="1"
-              list="tickmarks"
-              oninput="adjustSeverity(this.value)"
-              onchange="adjustRating(this.value)"
-            /><span id="severityvalue">5</span>
-          </label>
-          <datalist id="tickmarks">
-            <option value="0"></option>
-            <option value="1"></option>
-            <option value="2"></option>
-            <option value="3"></option>
-            <option value="4"></option>
-            <option value="5"></option>
-            <option value="6"></option>
-            <option value="7"></option>
-            <option value="8"></option>
-            <option value="9"></option>
-            <option value="10"></option>
-          </datalist>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                <label>Storm Date<br>
+                    <input type="date" name="stormdate"></label>
+                <label>Storm Type<br>
+                    <input list="stormtypes" name="stormtype" id="stormtype">
+                    <datalist id="stormtypes">
+                        <option value="Flash Flood">Flash Flood</option>
+                        <option value="Hail">Hail</option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                </label>
+                <p>Storm Severity</p>
+                <label class="flex">
+                    <input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustSeverity(this.value)" onchange="adjustRating(this.value)"><span id="severityvalue">5</span>
+			
+                </label>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                <label>Storm Region<br>
+                    <select name="region">
+                        <option value="" disabled selected>Select Region ...</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                </label>
+                <label class="danger">In Danger?<br>
+                    <input type="radio" name="danger" value="Yes"> Yes</label>
+                <label class="danger"><input type="radio" name="danger" value="Maybe"> Maybe</label> 
+                <label class="danger"><input type="radio" name="danger" value="No"> No</label>
+            </fieldset>
 
-          <label
-            >Storm Region<br />
-            <select name="region">
-              <option value="" disabled selected>Select Region ...</option>
-              <option value="preston">Preston</option>
-              <option value="sodasprings">Soda Springs</option>
-              <option value="fishhaven">Fish Haven</option>
-            </select>
-          </label>
-          <label class="danger"
-            >In Danger?<br />
-            <input type="radio" name="danger" value="Yes" /> Yes</label
-          >
-          <label class="danger"
-            ><input type="radio" name="danger" value="Maybe" /> Maybe</label
-          >
-          <label class="danger"
-            ><input type="radio" name="danger" value="No" /> No</label
-          >
-        </fieldset>
-
-        <fieldset>
-          <legend>Additional Information or Comments</legend>
-          <label for="comment"
-            >Use input below for additional comments or concerns about the storm
-            in your area.</label
-          >
-          <textarea name="comment" rows="10" cols="10"></textarea>
-        </fieldset>
-        <div class="button">
-          <input type="submit" value="Report Weather" class="submitButton" />
-        </div>
-      </form>
+            <fieldset>
+                <legend>Additional Information or Comments</legend>
+                <label for="comment">Use input below for additional comments or concerns about the storm in your area.</label>
+                    <textarea name="comment" rows="10" cols="10"></textarea>
+                
+            </fieldset>
+            <div class="button">
+            <input type="submit" value="Report Weather" class="submitButton">
+            </div>
+        </form>
     </main>
     <footer>
-      <div class="contactinfo">
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            ></iframe>
-          </div>
+        <div class="contactinfo">
+            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+            <p>
+                Weather of Southeast Idaho<br /><br />
+                Address:<br />
+                30 N 1st E<br />
+                Preston, ID 87654<br /><br />
+                &#9743; (999) 999-9999<br /><br />
+                &#9993; weather@seidahoweather.com
+              </p>
         </div>
-        <p>
-          Weather of Southeast Idaho<br /><br />
-          Address:<br />
-          30 N 1st E<br />
-          Preston, ID 87654<br /><br />
-          &#9743; (999) 999-9999<br /><br />
-          &#9993; weather@seidahoweather.com
-        </p>
-      </div>
-      Weather Information Provided by<br />
-      <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br />
-      &copy; 2021 | Emma Smith | Washington |
-      <a href="https://www.byui.edu/online">BYU Idaho</a><br />
-      <span id="copyrightyear"></span>
+        Weather Information Provided by<br> <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br>
+        &copy; 2021 | Emma Smith | Washington | <a href="https://www.byui.edu/online">BYU Idaho</a><br>
+        <span id="copyrightyear"></span>
     </footer>
 
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontloader.js"></script>
-    <script src="js/lazyscript.js"></script>
-  </body>
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontloader.js"></script>
+<script src="js/lazyscript.js"></script>
+</body>
 </html>
