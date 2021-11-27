@@ -16,7 +16,6 @@ const apiForecastURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&un
 fetch(apiForecastURL)
   .then((response) => response.json())
   .then((forecastInfo) => {
-    console.log(forecastInfo);
         let forecastDayNumber = todayDayNumber;
 
         for (i = 0; i < forecastInfo.list.length; i++) {
