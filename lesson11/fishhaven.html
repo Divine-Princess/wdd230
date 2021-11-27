@@ -1,119 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This is the page for Fish Haven, Idaho, for seidahoweather.com belonging to Emma Toronto Smith."
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the page for Fish Haven, Idaho, for seidahoweather.com belonging to Emma Toronto Smith.">
     <title>Fish Haven, Idaho</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-  </head>
-  <body>
-    <div id="message">
-      <h2>
-        &#11089; Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at
-        the city park pavilion. &#11089;
-      </h2>
-    </div>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="message"><h2>&#11089; Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion. &#11089;</h2></div>
     <header>
-      <img
-        src="images/weathericon.png"
-        alt="Weather of Southeast Idaho Logo"
-        class="weathericon"
-      />
-      <h2 class="slogan">Your best source for weather and news in Idaho</h2>
+            <img src="images/weathericon.png" alt="Weather of Southeast Idaho Logo" class="weathericon">
+            <h2 class="slogan">Your best source for weather and news in Idaho</h2>
     </header>
     <nav class="clearfix">
-      <button onclick="toggleMenu()">&#9776; Menu</button>
-      <ul id="navigation" class="hide">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="preston.html">Preston</a></li>
-        <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="#" class="active">Fish Haven</a></li>
-        <li><a href="stormcenter.html">Storm Center</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-      </ul>
-      <h1 class="miniheader">Fish Haven, Idaho</h1>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="#" class="active">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul> 
+        <h1 class="miniheader">Fish Haven, Idaho</h1>
     </nav>
     <main>
-      <div class="herodiv">
-        <img
-          src="images/fishhero1100.jpg"
-          alt="Fish Haven Hero Image"
-          sizes="100vw"
-          srcset="
-            images/fishhero500.jpg   500w,
-            images/fishhero800.jpg   800w,
-            images/fishhero1100.jpg 1100w
-          "
-        />
-        <section class="weathersummary">
-          <h2>Weather Summary</h2>
-          <p>Currently: <span id="current"></span></p>
-          <p>Current Temperature: <span id="temp"></span> &deg;F</p>
-          <p>Wind Chill: <span id="chill"></span></p>
-          <p>Humidity: <span id="humidity"></span></p>
-          <p>Wind Speed: <span id="speed"></span> mph</p>
+        <div class="herodiv">
+            <img src="images/fishhero1100.jpg" alt="Fish Haven Hero Image" sizes="100vw" srcset="images/fishhero500.jpg 500w, images/fishhero800.jpg 800w, images/fishhero1100.jpg 1100w">
+            <section class="weathersummary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current"></span></p>
+                <p>Current Temperature: <span id="temp"></span> &deg;F</p>
+                <p>Wind Chill: <span id="chill"></span></p>
+                <p>Humidity: <span id="humidity"></span> </p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+            </section>
+        </div>
+        <div id="fivedayforecast">
+        </div>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <hr>
+            <ul id="fishhavenevents"></ul>
         </section>
-      </div>
-      <div id="fivedayforecast"></div>
-      <section class="events">
-        <h2>Upcoming Events</h2>
-        <hr />
-        <ul id="fishhavenevents"></ul>
-      </section>
-      <section class="article">
-        <img class="largescreen" src="images/bearlake.jpg" alt="Bear Lake" />
-        <h2>Things to do in Fish Haven</h2>
-        <p>
-          Bear Lake, a freshwater lake situated on the Idaho-Utah border, is a
-          popular go-to place for the people of Fish Haven. You may bring your
-          own boat or jet ski, or there are rentals right there at the lake.
-          Fishing is another favorite activity around the lake. Or if that's not
-          your style, lounge on the many beaches located all over the area with
-          a view of the gorgeous turquoise waters. Bear Lake State Park offers
-          many outdoor activities and is a great place to bring the family for a
-          camping trip.
-        </p>
-        <img class="smallscreen" src="images/bearlake.jpg" alt="Bear Lake" />
-      </section>
+        <section class="article">
+            <img class="largescreen" src="images/bearlake.jpg" alt="Bear Lake">
+            <h2>Things to do in Fish Haven</h2>
+            <p>Bear Lake, a freshwater lake situated on the Idaho-Utah border, is a popular go-to place for the people of Fish Haven. You may bring your own boat or jet ski, or there are rentals right there at the lake. Fishing is another favorite activity around the lake. Or if that's not your style, lounge on the many beaches located all over the area with a view of the gorgeous turquoise waters. Bear Lake State Park offers many outdoor activities and is a great place to bring the family for a camping trip.</p>
+            <img class="smallscreen" src="images/bearlake.jpg" alt="Bear Lake">
+        </section>
     </main>
     <footer>
-      <div class="contactinfo">
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            ></iframe>
-          </div>
+        <div class="contactinfo">
+            <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+            <p>
+                Weather of Southeast Idaho<br /><br />
+                Address:<br />
+                30 N 1st E<br />
+                Preston, ID 87654<br /><br />
+                &#9743; (999) 999-9999<br /><br />
+                &#9993; weather@seidahoweather.com
+              </p>
         </div>
-        <p>
-          Weather of Southeast Idaho<br /><br />
-          Address:<br />
-          30 N 1st E<br />
-          Preston, ID 87654<br /><br />
-          &#9743; (999) 999-9999<br /><br />
-          &#9993; weather@seidahoweather.com
-        </p>
-      </div>
-      Weather Information Provided by<br />
-      <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br />
-      &copy; 2021 | Emma Smith | Washington |
-      <a href="https://www.byui.edu/online">BYU Idaho</a><br />
-      <span id="copyrightyear"></span>
+        Weather Information Provided by<br> <a href="https://openweathermap.org/">OpenWeatherMap.org</a><br>
+        &copy; 2021 | Emma Smith | Washington | <a href="https://www.byui.edu/online">BYU Idaho</a><br>
+        <span id="copyrightyear"></span>
     </footer>
-
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontloader.js"></script>
-    <script src="js/fishweather-api.js"></script>
-    <script src="js/fish5dayforecast.js"></script>
-    <script src="js/fishevents.js"></script>
-  </body>
+<script src="js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontloader.js"></script>
+<script src="js/fishweather-api.js"></script>
+<script src="js/fish5dayforecast.js"></script>
+<script src="js/fishevents.js"></script>
+</body>
 </html>
