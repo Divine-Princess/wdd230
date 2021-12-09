@@ -1,0 +1,657 @@
+:root {
+    --lavender: #e2e2f3;
+    --lightblue: #b3cae4;
+    --blue: #4B4D6C;
+    --purple: #512951;
+    --black: #0c1427;
+}
+
+body {
+    background-color: var(--lavender);
+    color: var(--black);
+    
+}
+
+/* Header */
+header {
+    background-color: var(--black);
+    width: 100%;
+    text-align: center;
+}
+
+.spokaneicon {
+    width: 60%; 
+}
+
+/* Navigation */
+
+nav {
+    background-color: var(--black);
+    color: #F5F5F5;
+    font-family: "Outfit", sans-serif;
+    font-weight: lighter;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a{
+	display: block;
+	text-align: left;
+	padding: 0.80rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+    color:#F5F5F5;
+    transition: 0.2s;
+}
+
+.active {
+    background-color: var(--purple);
+}
+
+nav ul li a:hover {
+	background-color: var(--purple);
+}
+
+nav ul li a:visited {
+    color: #F5F5F5;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav button {
+    background-color: #011627;
+    color: #F5F5F5;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0.80rem;
+    text-align: left;
+    transition: 0.2s;
+}
+
+/* Main and Text */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: var(--black);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Outfit", sans-serif;
+}
+
+p, section ul li {
+    font-family: "Faustina", serif;
+}
+
+a {
+    color: white;
+}
+
+section h2, section h3, section h4, section p {
+    padding-left: 10px;
+}
+
+/* Hero Image */
+
+.herodiv {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+img.heroimage {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.welcome {
+    color: var(--black);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    top: 30%;
+    left: 50%;
+    padding: 10px 0px;
+    transform: translate(-50%, -50%);
+}
+
+/* Home Page Sections */
+
+/* Who We Are */
+
+section.whoweare {
+    width: 90%;
+    background-color: var(--lightblue);
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.4);
+}
+
+/* Call To Action */
+
+section.calltoaction {
+    width: 70%;
+    margin: 20px auto;
+    background-color: var(--blue);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px rgba(1,22,39,0.9);
+}
+
+section.calltoaction a {
+    display: block;
+    width: 90%;
+    font-size: 1.8rem;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--lightblue);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px var(--black);
+    transition: 0.3s;
+}
+
+section.calltoaction a:hover {
+    color: var(--blue);
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Events */
+
+section.events {
+    width: 90%;
+    background-color: var(--purple);
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,1);
+}
+
+section.events div {
+    background-color: var(--lavender);
+    color: var(--black);
+    margin: 10px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+section.events h3 {
+    font-size: 1.4rem;
+}
+
+section.events h4 {
+    color: var(--blue);
+    font-size: 1.2rem;
+}
+
+section.events img {
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 150px;
+    width: 94%;
+    
+}
+
+/* Businesses */
+
+section.businesses {
+    width: 90%;
+    background-color: var(--blue);
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.9);
+}
+
+section.businesses div {
+    background-color: var(--lavender);
+    margin: 10px;
+    border-radius: 5px;
+    color: var(--black);
+    padding: 20px;
+}
+
+section.businesses div img {
+    width: 60%;
+    margin: 40px auto;
+    display: block;
+}
+
+section.businesses div a {
+    color: var(--black);
+    margin-left: 10px;
+    font-family: "Faustina", serif;
+}
+
+/* Current Weather */
+
+section.currentweather {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+}
+section.currentweather img {
+    width: 100%; 
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.3);
+
+}
+
+section.currentweather div {
+    position: absolute;
+    width: 85%;
+    top: 48%;
+    left: 50%;
+    padding: 35px 10px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.6);
+}
+
+div#threedayforecast {
+    display: none;
+}
+
+div#weatheralert {
+    background-color: rgba(255,255,255,0.85);
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    border-radius: 5px;
+}
+
+div#weatheralert button {
+    background-color: rgba(255,255,255,0);
+    font-size: 0.8rem;
+    border: none;
+    transition: 0.2s;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+div#weatheralert button:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+/* About Spokane */
+
+/* About Our City */
+
+section.demographics {
+    background-color: var(--blue);
+    color: white;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.9);
+}
+
+/* Visit Manito */
+
+section.visitmanito {
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+section.visitmanito img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 450px;
+    box-shadow: 0px 2px rgba(1,22,39,0.7);
+}
+
+section.visitmanito div {
+    position: absolute;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    padding: 10px 10px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.7);
+}
+
+/* Events in Spokane */
+
+section.spokaneevents {
+    width: 90%;
+    background-color: var(--purple);
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,1);
+}
+
+section.spokaneevents div {
+    background-color: var(--lavender);
+    color: var(--black);
+    margin: 10px;
+    border-radius: 5px;
+    height: 35%;
+    padding: 5px;
+}
+
+section.spokaneevents div a {
+    color: var(--black);
+    font-family: "Faustina", serif;
+    margin-left: 10px;
+} 
+
+/* History of Spokane */
+
+section.spokanehistory {
+    width: 90%;
+    background-color: var(--lightblue);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.4);
+}
+
+section.spokanehistory img {
+    width: 90%;
+    margin-left: 10px;
+}
+
+p.notice {
+    font-size: 0.7rem;
+    margin: 5px;
+}
+
+section.spokanehistory a {
+    color: var(--purple);
+}
+
+/* Join Us Page */
+
+section.why {
+    background-color: var(--lightblue);
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.4);
+}
+
+/* Forms */
+
+form {
+    font-family: "Outfit", sans-serif;
+}
+
+fieldset {
+    background-color: var(--lightblue);
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.7);
+    border: none;
+    margin-bottom: 20px;
+    line-height: 1.6rem;
+}
+
+legend {
+    background-color: white;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 2px rgba(1,22,39,0.3);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+label {
+    margin-bottom: 20px;
+    display: block;
+}
+
+label img {
+    width: 23px;
+    margin: -5px 10px;
+}
+
+input {
+    width: 98%;
+    border: none;
+    border-radius: 5px;
+    height: 44px;
+}
+
+div.businessaddress {
+    background-color: rgba(75,77,108,0.2);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.3);
+}
+
+div.businessaddress label {
+    margin-bottom: 7px;
+}
+
+input:required {
+    border: darkred 2px solid;
+}
+
+input:required:valid {
+    border: darkgreen 2px solid;
+}
+
+span.addressdescription {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 98%;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+}
+
+
+input[type="radio"] {
+    height: 15px;
+    width: 20%;
+    margin-left: -10px;
+}
+
+div.button input {
+    display: block;
+    width: 80%;
+    margin: 40px auto;
+    background-color: var(--purple);
+    color: white;
+    box-shadow: 0px 2px rgba(1,22,39,1);
+    font-size: 1.5rem;
+    height: 55px;
+}
+
+/* Membership Type */
+
+section.membershiptype {
+    background-color: var(--black);
+    color: white;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.4);
+}
+
+section.membershiptype img {
+    margin-left: 10px;
+    width: 50px;
+}
+
+/* Confirmation Page */
+
+main.confirmation {
+    width: 75%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--blue);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 150px;
+}
+
+main.confirmation a {
+    font-family: Faustina, serif;
+}
+
+/* Contact Us */
+
+section.contactinfo {
+    background-color: var(--purple);
+    color: white;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.7);
+}
+
+section.contactinfo iframe {
+    width: 100%;
+    height: 200px;
+}
+
+section.boardofdirectors {
+    background-color: var(--lightblue);
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px rgba(1,22,39,0.7);
+}
+
+section.boardofdirectors ul li {
+    list-style-type: none;
+    font-family: "Faustina", serif;
+    line-height: 1.5rem;
+    margin-left: -30px;
+}
+
+/* Directory */
+
+div.directoryjs div {
+    background-color: white;
+    color: var(--black);
+    width: 90%;
+    margin: 20px auto;
+    padding: 40px 15px;
+    border-radius: 5px;
+}
+
+div.directoryjs div a {
+    color: var(--black);
+    font-family: "Faustina", serif;
+    margin-left: 10px;
+}
+
+div.directoryjs div img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;   
+}
+
+div.directoryjs div p {
+    width: 100%;
+}
+
+div.directoryjs div:nth-child(2) img {
+    width: 10%;
+}
+
+div.directoryjs div:nth-child(7) img {
+    width: 30%;
+}
+
+div.gridview {
+    display: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--purple);
+    color: white;
+    font-family: "Faustina", serif;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+div.modified {
+    text-align: center;
+}
+
+footer img {
+    width: 60px;
+    display: block;
+    margin: 15px auto;
+}
+
+footer a img {
+    width: 33px;
+    display: inline;
+}
+
+p.name {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+
+
+/* ClearFix */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+

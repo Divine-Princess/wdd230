@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Directory</title>
+    <meta name="description" content="This is the Business Directory page for spokanenetwork.org, belonging to Emma Toronto Smith.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/tsnlogo.png" alt="The Spokane Network Logo" class="spokaneicon">
+        </a>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutspokane.html">About Spokane</a></li>
+          <li><a href="joinus.html">Join Us</a></li>
+          <li><a href="#" class="active">Business Directory</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main class="directory">
+        <div class="herodiv">
+          <img class="heroimage" src="images/directoryhero.jpg" alt="Hero for TSN Directory Page">
+          <h1 class="welcome">Business Directory</h1>
+        </div>
+        <div class="directorypageview">
+          <div class="gridview">
+            <img class="grid" onclick="toggleGrid()" src="images/gridview.png" alt="grid view">
+            <img class="list blue" onclick="toggleList()" src="images/rowview.png" alt="list view">
+          </div>
+          <div class="directoryjs">
+          
+          </div>
+        </div>
+        </main>
+        <footer>
+          <p class="name">The Spokane Network</p>
+          <div class="footcontainer">
+            <div>
+              <p>Address: 1223 E Washington Rd, <br>Spokane WA 99208</p>
+              <p>Phone: (509) 123-4567</p>
+              <p>Fax: (509) 234-5678</p>
+              <a href="https://www.facebook.com/"><img src="images/fblogo.png" alt="Facebook Logo"></a>  <a href="https://https://www.instagram.com/"><img src="images/iglogo.png" alt="Instagram Logo"></a>
+            </div>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171942.43737442623!2d-117.55223355903782!3d47.67275519899002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e185c30bbe7e5%3A0xddfcc9d60b84d9b1!2sSpokane%2C%20WA!5e0!3m2!1sen!2sus!4v1638661110478!5m2!1sen!2sus" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <p>&copy; <span id="copyrightyear"></span> | Emma Smith | Washington</p>
+            </div>
+          </div>
+          <div class="modified"><p>Last Modified: <span id="lastmodified"></span> <br><a href="attributions.html">Attributions</a></p></div>
+          <img src="images/tsnlogosmall.png" alt="Spokane Network Logo">
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+</html>

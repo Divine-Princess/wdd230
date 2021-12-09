@@ -1,0 +1,53 @@
+{
+    "businesses": [
+      {
+        "name": "Mac Daddy's",
+        "photo": "images/macdaddys.png",
+        "website": "https://www.macdaddys509.com/",
+        "address": "10115 N Newport Hwy, Spokane, WA 99218",
+        "phone": "(509) 474-1336"
+      },
+      {
+        "name": "Didier's Yogurt & More",
+        "photo": "images/emptyplaceholder.png",
+        "website": "https://www.darkhorserestaurantgroup.com/didier-s-yogurt-more",
+        "address": "10410 N Division St, Spokane, WA 99218",
+        "phone": "(509) 466-8434"
+      },
+      {
+        "name": "Auntie's Bookstore",
+        "photo": "images/auntielogo.png",
+        "website": "https://www.auntiesbooks.com/",
+        "address": "402 W Main Ave, Spokane, WA 99201",
+        "phone": "(509) 838-0206"
+      },
+      {
+        "name": "Uncle's Games",
+        "photo": "images/unclesgames.png",
+        "website": "https://www.unclesgames.com/",
+        "address": "404 W Main Ave, Spokane, WA 99201",
+        "phone": "(509) 624-4633"
+      },
+      {
+        "name": "Subway",
+        "photo": "images/subway.png",
+        "website": "https://order.subway.com/en-US",
+        "address": "808 W Main St, Spokane, WA 99201",
+        "phone": "(509) 456-7827"
+      },
+      {
+        "name": "Think Tank Escape Room",
+        "photo": "images/thinktank.png",
+        "website": "https://thinktankescaperooms.com/",
+        "address": "327 W 3rd Ave, Spokane, WA 99201",
+        "phone": "(509) 919-4975"
+      },
+      {
+        "name": "911 Driving School",
+        "photo": "images/911drivingschool.png",
+        "website": "https://911drivingschool.com/",
+        "address": "6314 N Ash St Ste 2, Spokane, WA 99208",
+        "phone": "(509) 324-0911"
+      }
+    ]
+  }

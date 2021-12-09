@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spokane Network</title>
+    <meta name="description" content="This is the home page for spokanenetwork.org, belonging to Emma Toronto Smith.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="images/tsnlogo.png" alt="The Spokane Network Logo" class="spokaneicon">
+        </a>
+        <div id="weatheralert"><button onclick="closeAlert()">&#10006; Close</button> <span>Weather Alert: No alerts</span></div>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="aboutspokane.html">About Spokane</a></li>
+          <li><a href="joinus.html">Join Us</a></li>
+          <li><a href="directory.html">Business Directory</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main class="index">
+        <div class="herodiv">
+          <img class="heroimage" src="images/indexhero.jpg" alt="Hero for TSN Home">
+          <h1 class="welcome">Welcome to the Spokane Network</h1>
+        </div>
+        <div class="mainpage">
+            <section class="whoweare">
+                <h2>Who We Are</h2>
+                <p>The Spokane Network is a non-profit organization whose goal it is to build the economy of Spokane, Washington.</p> 
+                  <p>We provide resources to support your business as a business development organization. TSN is the place where organizations can come together to drive economic growth, advocate for businesses in the Spokane area, and support each other as a community.</p>
+            </section>
+            <section class="calltoaction">
+                <h2>Join us!</h2>
+                <p>If you would like to join us in our business-growing endeavors, please join us by clicking the link below!</p>
+                <a href="joinus.html">BECOME A MEMBER<!--FOOL--></a>
+            </section>
+            <section class="events">    
+                <h2>Upcoming Events</h2>    
+                <img src="images/upcomingevents.jpg" alt="Image for Upcoming Events">
+                <div>
+                  <h3>TSN Leadership Seminar</h3>
+                  <h4>December 10 - 9:00 AM</h4>
+                </div>
+                <div>
+                  <h3>Business Connection Luncheon</h3>
+                  <h4>December 15 - 12:00 PM Noon</h4>
+                </div>
+                <div>
+                  <h3>TSN Info Meeting</h3>
+                  <h4>December 21 - 3:30 PM</h4>
+                </div>
+            </section>
+            <section class="businesses">
+                <h2>Businesses We Love</h2>
+                <div><img src="images/subway.png" alt="Subway">
+                  <h2>Subway</h2><p>808 W Main St, Spokane, WA 99201</p><p>(509) 456-7827</p><a href="https://order.subway.com/en-US">Website</a></div>
+                <div><img src="images/auntielogo.png" alt="Auntie's Bookstore">
+                  <h2>Auntie's Bookstore</h2><p>402 W Main Ave, Spokane, WA 99201</p><p>(509) 838-0206</p><a href="https://www.auntiesbooks.com/">Website</a></div>
+                <div><img src="images/thinktank.png" alt="Think Tank Escape Room"><h2>Think Tank Escape Room</h2><p>327 W 3rd Ave, Spokane, WA 99201</p><p>(509) 919-4975</p><a href="https://thinktankescaperooms.com/">Website</a></div>
+            </section>
+            <section class="currentweather">
+                <img src="images/spokaneriver.jpg" alt="Spokane River">
+                <div>
+                    <h2>Current Weather</h2>
+                    <p>Currently: <span id="current"></span></p>
+                    <p>Current Temperature: <span id="temp"></span> &deg;F</p>
+                    <p>Humidity: <span id="humidity"></span> </p>
+                </div>
+                
+            </section>
+            <div id="threedayforecast">
+        
+            </div>
+        </main>
+        
+        <footer>
+          <p class="name">The Spokane Network</p>
+          <div class="footcontainer">
+            <div>
+              <p>Address: 1223 E Washington Rd, <br>Spokane WA 99208</p>
+              <p>Phone: (509) 123-4567</p>
+              <p>Fax: (509) 234-5678</p>
+              <a href="https://www.facebook.com/"><img src="images/fblogo.png" alt="Facebook Logo"></a>  <a href="https://https://www.instagram.com/"><img src="images/iglogo.png" alt="Instagram Logo"></a>
+            </div>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171942.43737442623!2d-117.55223355903782!3d47.67275519899002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e185c30bbe7e5%3A0xddfcc9d60b84d9b1!2sSpokane%2C%20WA!5e0!3m2!1sen!2sus!4v1638661110478!5m2!1sen!2sus" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <p>&copy; <span id="copyrightyear"></span> | Emma Smith | Washington</p>
+            </div>
+          </div>
+          <div class="modified"><p>Last Modified: <span id="lastmodified"></span> <br><a href="attributions.html">Attributions</a></p></div>
+          <img src="images/tsnlogosmall.png" alt="Spokane Network Logo">
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/weatherapi.js"></script>
+</body>
+</html>

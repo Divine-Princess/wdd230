@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1028px) { 
+
+    .spokaneicon {
+        width: 20%;
+        margin-left: 13%;
+    }
+
+    nav {
+        margin-right: 13%;
+    }
+
+    div.mainpage, div.spokanepage, div.joinus, div.directorypageview {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    section.events img {
+        width: 95%;
+    }
+
+    section.currentweather {
+        width: 92%;
+    }
+
+    div#threedayforecast {
+        width: 97%;
+    }
+
+    div#threedayforecast div h2, div#threedayforecast div img, div#threedayforecast div p {
+        margin-top: 40px;
+    }
+
+    div.directoryjs div img {
+        width: 200px;
+    }
+
+    div.directoryjs div:nth-child(7) img {
+        width: 20%;
+    }
+
+    div.footcontainer {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    section.spokanehistory {
+        line-height: 1.6rem;
+        
+    }
+
+}

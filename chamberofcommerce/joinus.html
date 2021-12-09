@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <meta name="description" content="This is the Join Us page for spokanenetwork.org, belonging to Emma Toronto Smith.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/tsnlogo.png" alt="The Spokane Network Logo" class="spokaneicon">
+        </a>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navigation" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutspokane.html">About Spokane</a></li>
+          <li><a href="#" class="active">Join Us</a></li>
+          <li><a href="directory.html">Business Directory</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main class="joinus">
+        <div class="herodiv">
+          <img class="heroimage" src="images/joinushero.jpg" alt="Hero for TSN Join Us Page">
+          <h1 class="welcome">Join Us</h1>
+        </div>
+        <div class="mainpage">
+          <section class="why">
+            <h2>Becoming a TSN Member</h2>
+            <!--<p>If you don't we will break your kneecaps. Don't worry. It will only hurt for a second, and then for many hours after that. There are many other reasons you should join us, such as the cookies that Helen brings all of us after she's done with her other job. She is overworked. Please help Helen by being gracious enough to eat her peanut butter cookies. You're allergic? You're a menace to society. Helen is disappointed in you. How dare your body be different than everyone else's? Eat her cookies.</p>-->
+            <p>By becoming a member of the Spokane Network, you can join us in our mission to strengthen Spokane's business community. You will be given support in your business and in turn, you will also support other businesses in the wider community. We help support your business by:</p>
+            <ul>
+              <li>Providing support and tools to grow your business</li>
+              <li>Giving you a stronger voice in wider policies in the Spokane area</li>
+              <li>Giving you access to a community with the same goals as you</li>
+            </ul>
+            <p>Become a member of the Spokane Network today, and you'll be able to broaden your business horizons and expand your ability to help in the wider community.</p>
+          </section>
+          <form method="get" action="confirmation.html">
+            <fieldset>
+              <legend>Personal Information</legend>
+              <label>First Name*<br> 
+                <input type="text" name="fname" required>
+              </label>
+              <label>Last Name*<br> 
+                <input type="text" name="lname" required>
+              </label>
+              <label>Title<br>
+                <input type="text" name="title" placeholder="(eg. Mr. Mrs. Dr. etc.)">
+              </label>
+              <label>Email*<br> 
+                <input type="email" name="email" placeholder="johndoe@abc123.com" required>
+              </label>
+              <label>Phone Number<br>
+                <input type="tel" name="phone" placeholder="1235551234">
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Business Information</legend>
+              <label>Business Name*
+                <input type="text" name="bname" required>
+              </label>
+              <div class="businessaddress">
+              <label>Business Address<br><br>
+                Address Line 1:<br>
+                <input type="text" name="address1">
+                <span class="addressdescription">Street address, P.O. box</span></label>
+                <label>Address Line 2:<br>
+                <input type="text" name="address2">
+                <span class="addressdescription">Apartment, suite, unit, building, floor, etc.</span><br>
+                </label>
+                <label>City:
+                  <input type="text" name="city">
+                </label>
+                <label>State:
+                  <input type="text" name="state">
+                </label>
+                <label>Zip Code:<br>
+                <input type="number" name="zipcode"><br><br>
+                </label>
+              </div>
+                <label>Business Website<br>
+                  <input type="url" name="website" placeholder="insertmywebsite.com">
+                </label>
+                <label>Business Description<br>
+                  <textarea name="description" rows="10" cols="10" id="businessdescription"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+              <legend>Membership Level</legend>
+              <label class="membership">
+                <input type="radio" name="membership" value="gold"> Gold Membership ($1000)<img src="images/gold.png" alt="gold member"></label>
+              <label class="membership"><input type="radio" name="membership" value="silver"> Silver Membership ($400)<img src="images/silver.png" alt="silver member"></label> 
+              <label class="membership"><input type="radio" name="membership" value="bronze"> Bronze Membership ($200)<img src="images/bronze.png" alt="bronze member"></label>
+              <label class="membership"><input type="radio" name="membership" value="non-profit"> Non-profit ($100)<img src="images/green.png" alt="non-profit"></label>
+            </fieldset>
+            <div class="button">
+              <input type="submit" value="Become a Member" class="submitButton">
+              </div>
+          </form>
+          <section class="membershiptype">
+            <h2>Membership Types</h2>
+            <h3>Gold Membership ($1000)</h3>
+            <img src="images/gold.png" alt="gold member">
+            <p>Gold Members reap the benefits of all that's available to members of the Spokane Network. Such benefits include but are not limited to:</p>
+            <ul>
+              <li>Unique training with professionals in your area of business</li>
+              <li>Direct consulting with the biggest names in your area of business</li>
+              <li>Highest prominence in our directory</li>
+              <li>Luncheon tickets</li>
+              <li>Sponsorships with big business advertising</li>
+              <li>Social Media Advertising</li>
+              <li>Exclusive access to area-wide business conferences</li>
+              <li>Access to the full and entire community of the Spokane Network</li>
+            </ul>
+            <h3>Silver Membership ($400)</h3><img src="images/silver.png" alt="silver member">
+            <p>Silver Members are given access to the majority of all we have to offer for members of the Spokane Network, for less than half the price of Gold. Benefits include but are not limited to:</p>
+            <ul>
+              <li>Higher prominence in our directory</li>
+              <li>Luncheon tickets</li>
+              <li>Sponsorships with big business advertising</li>
+              <li>Social Media Advertising</li>
+              <li>Exclusive access to area-wide business conferences</li>
+              <li>Access to the community of the Spokane Network</li>
+            </ul>
+            <h3>Bronze Membership ($200)</h3>
+            <img src="images/bronze.png" alt="bronze member">
+            <p>Bronze Members enjoy the benefits of advertising and participating in the community of the Spokane Network. Benefits include but are not limited to:</p>
+            <ul>
+              <li>Luncheon tickets</li>
+              <li>Social Media Advertising</li>
+              <li>Exclusive access to area-wide business conferences</li>
+              <li>Access to the community of the Spokane Network</li>
+            </ul>
+            <h3>Non-Profit Memberships ($100)</h3>
+            <img src="images/green.png" alt="non-profit member">
+            <p>Non-profit members obtain access to the community of the Spokane Network. Although comparatively small in contribution, non-profit members obtain full access to the community of the Spokane Network and benefits involved with improving Spokane's business community.</p>
+          </section>
+        </div>
+        </main>
+        <footer>
+          <p class="name">The Spokane Network</p>
+          <div class="footcontainer">
+            <div>
+              <p>Address: 1223 E Washington Rd, <br>Spokane WA 99208</p>
+              <p>Phone: (509) 123-4567</p>
+              <p>Fax: (509) 234-5678</p>
+              <a href="https://www.facebook.com/"><img src="images/fblogo.png" alt="Facebook Logo"></a>  <a href="https://https://www.instagram.com/"><img src="images/iglogo.png" alt="Instagram Logo"></a>
+            </div>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171942.43737442623!2d-117.55223355903782!3d47.67275519899002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549e185c30bbe7e5%3A0xddfcc9d60b84d9b1!2sSpokane%2C%20WA!5e0!3m2!1sen!2sus!4v1638661110478!5m2!1sen!2sus" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <p>&copy; <span id="copyrightyear"></span> | Emma Smith | Washington</p>
+            </div>
+          </div>
+          <div class="modified"><p>Last Modified: <span id="lastmodified"></span> <br><a href="attributions.html">Attributions</a></p></div>
+          <img src="images/tsnlogosmall.png" alt="Spokane Network Logo">
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
