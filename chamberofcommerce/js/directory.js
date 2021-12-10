@@ -5,7 +5,6 @@ fetch(directoryURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); 
         const businesses = jsonObject['businesses'];
         for (let i = 0; i < businesses.length; i++ ) {
             
@@ -36,15 +35,6 @@ fetch(directoryURL)
             info.appendChild(phone);
             info.appendChild(website);
             card.appendChild(info);
-
-            console.log(image);
-            console.log(name);
-            console.log(address);
-            console.log(phone);
-            console.log(website);
-            console.log(info);
-            console.log(card);
-            console.log(document.querySelector("directoryjs"));
 
             document.querySelector('div.directoryjs').appendChild(card);
         }
